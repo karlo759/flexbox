@@ -1,0 +1,38 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container{
+border: 1px solid black;
+width: 80%;
+height: 600px;
+display: flex;
+/*flex-direction: column;*/
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1em;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+    color: yellow;
+    font-weight: 700;
+}
+
+.item3{
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-self: center;
+}
